@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Special+Elite&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #10142B;
+  --color-panel: #1A1F3D;
+  --color-panel-light: #232948;
+  --color-accent: #E3A542;
+  --color-accent-soft: #F0C878;
+  --color-text-primary: #EDEDF5;
+  --color-text-muted: #9296B4;
+  --color-stamp-strong: #4C9A6A;
+  --color-stamp-possible: #C98A2E;
+  --color-stamp-weak: #B24A4A;
+  --color-hairline: #2E3560;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-stamp: "Special Elite", monospace;
+}
+
+body {
+  background-color: var(--color-ink);
+  font-family: var(--font-body);
+}
